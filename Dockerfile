@@ -7,9 +7,6 @@ WORKDIR /app
 # Copia el archivo de requerimientos e instala las dependencias
 COPY . app.py
 
-# Copia el resto de los archivos de la aplicación al directorio de trabajo
-COPY . .
-
 # Expone el puerto 5000 para que la aplicación sea accesible desde fuera del contenedor
 EXPOSE 5000
 
