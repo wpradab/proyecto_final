@@ -5,7 +5,7 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Copia el archivo de requerimientos e instala las dependencias
-COPY app.py
+COPY . app.py
 
 # Copia el resto de los archivos de la aplicación al directorio de trabajo
 COPY . .
